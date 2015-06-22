@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#007788;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+#header{
+	margin:0 auto;
+}
+/* Main Menu */
+.nav{
+	font-size:14px; 
+	background:#000000; 
+	-moz-border-bottom-left-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	border-bottom-left-radius:6px; 
+	-moz-border-bottom-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-right-radius:6px;
+	margin:0 5px;
+}
+.nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.nav ul li{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+.nav ul li:first-child{
+	margin:0 0 0 5px;
+}
+.nav ul li:last-child{
+	margin:0 5px 0 0;
+}
+.nav ul li a{
+	display:inline-block;
+	color:#f2f2f2;
+	padding:10px;
+	text-decoration:none;
+}
+.nav ul li a:hover{
+	color:#565656;
+}
+.logo{
+	text-align:center;
+	margin:0;
+	padding:5px;
+}
+/* Home */
+.logo img{
+	border:none;
+}
+h2{
+	font-size:16px;
+	font-weight:bold;
+	color:#9b9b9b;
+	border:#aaaaaa 1px dashed;
+	padding:5px;
+	margin:0 5px;
+}
+p{
+	text-align:left;
+	font-size:12px;
+	color:#2d2d2d;
+	margin:5px;
+	padding:0;
+	line-height:20px;
+}
+p a{
+	color:#3c9ddb;
+	text-decoration:none;
+}
+p a:hover{
+	color:#4d4444;
+}
+.right{
+	float:right;
+	margin:5px 10px 5px 0;
+	font-size:12px;
+}
+.right a{
+	color:#88aa00;
+	text-decoration:none;
+	padding:5px;
+}
+.nav2{
+	font-size:14px; 
+	background:#2d2d2d; 
+	-moz-border-top-left-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-left-radius:6px; 
+	-moz-border-top-right-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	border-top-right-radius:6px;
+	margin:0 5px;
+}
+.nav2 p{
+	text-align:center;
+	color:#f2f2f2;
+	margin:0 5px;
+	padding:5px 0;
+}
+.nav2 p a{
+	display:inline-block;
+	color:#88aa00;
+	padding:5px;
+	text-decoration:none;
+}
+.nav2 p a:hover{
+	color:#565656;
+}
+
+.clear{
+	clear:both;
+}
+
+/* Login Form */
+.login-card {
+  padding: 40px;
+  width: 100%;
+  background-color: #F7F7F7;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+/* Form correction */
+input.error {
+    background: red;
+    color: white;
+	padding: 20px 1px 20px 1px;
+}
+label.error {
+    color: red;
+	padding: 20px 1px 20px 1px;
+}
