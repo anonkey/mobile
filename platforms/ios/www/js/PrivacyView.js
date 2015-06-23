@@ -1,4 +1,4 @@
-var LoginView = function (service) {
+var PrivacyView = function (service) {
 	this.initialize = function () {
 		// Define a div wrapper for the view (used to attach events)
 		this.$el = $('<div/>');

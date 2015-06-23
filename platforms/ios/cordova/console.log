@@ -4804,3 +4804,587 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-06-22 23:05:58.857 Mobileapp[64253:587275] Service initialized
 2015-06-22 23:06:04.560 Mobileapp[64253:587275] CDVWebViewDelegate: Navigation started when state=1
 2015-06-22 23:06:04.560 Mobileapp[64253:587275] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-06-23 16:27:45.141 Mobileapp[2984:9652644] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/CECD20A4-3822-4E40-B604-7024ED531889/Library/Cookies/Cookies.binarycookies
+2015-06-23 16:27:45.986 Mobileapp[2984:9652644] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 16:27:45.987 Mobileapp[2984:9652644] Multi-tasking -> Device: YES, App: YES
+2015-06-23 16:27:46.012 Mobileapp[2984:9652644] Unlimited access to network resources
+2015-06-23 16:27:46.027 Mobileapp[2984:9652644] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 16:27:46.810 Mobileapp[2984:9652644] [CDVTimer][statusbar] 272.161007ms
+2015-06-23 16:27:46.810 Mobileapp[2984:9652644] [CDVTimer][TotalPluginStartup] 272.310019ms
+2015-06-23 16:27:47.118 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:27:47.485 Mobileapp[2984:9652644] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/92E316D3-5CEC-41C3-9422-C9F9AFF1E0E6/Mobileapp.app/www/index.html
+2015-06-23 16:27:47.600 Mobileapp[2984:9652644] THREAD WARNING: ['StatusBar'] took '10.254150' ms. Plugin should use a background thread.
+2015-06-23 16:27:47.605 Mobileapp[2984:9652644] Create table success
+2015-06-23 16:27:47.607 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.607 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.608 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.608 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.609 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.609 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.610 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.611 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.611 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.611 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.612 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.612 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:27:47.668 Mobileapp[2984:9652644] Transaction success
+2015-06-23 16:27:47.669 Mobileapp[2984:9652644] Service initialized
+2015-06-23 16:51:07.503 Mobileapp[2984:9652644] ascascrt
+2015-06-23 16:51:07.523 Mobileapp[2984:9652644] THREAD WARNING: ['Console'] took '20.052979' ms. Plugin should use a background thread.
+2015-06-23 16:51:07.524 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:07.524 Mobileapp[2984:9652644] 4
+2015-06-23 16:51:07.711 Mobileapp[2984:9652644] THREAD WARNING: ['Notification'] took '186.687012' ms. Plugin should use a background thread.
+2015-06-23 16:51:07.763 Mobileapp[2984:9652644] ascascrt
+2015-06-23 16:51:07.763 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:07.763 Mobileapp[2984:9652644] 4
+2015-06-23 16:51:08.167 Mobileapp[2984:9652644] Warning: Attempt to present <UIAlertController: 0x79e68e70>  on <MainViewController: 0x79e40e70> which is already presenting <UIAlertController: 0x7b028110>
+2015-06-23 16:51:12.166 Mobileapp[2984:9652644] ascascrt
+2015-06-23 16:51:12.167 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:12.167 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:12.171 Mobileapp[2984:9652644] ascascrt
+2015-06-23 16:51:12.171 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:12.171 Mobileapp[2984:9652644] 54
+2015-06-23 16:51:12.594 Mobileapp[2984:9652644] Warning: Attempt to present <UIAlertController: 0x7b027170>  on <MainViewController: 0x79e40e70> which is already presenting <UIAlertController: 0x7b0c8490>
+2015-06-23 16:51:16.131 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:51:16.189 Mobileapp[2984:9652644] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:51:17.143 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:51:17.147 Mobileapp[2984:9652644] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:51:36.550 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:51:36.559 Mobileapp[2984:9652644] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:51:40.014 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:51:40.019 Mobileapp[2984:9652644] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:51:42.966 Mobileapp[2984:9652644] Resetting plugins due to page load.
+2015-06-23 16:51:43.036 Mobileapp[2984:9652644] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/92E316D3-5CEC-41C3-9422-C9F9AFF1E0E6/Mobileapp.app/www/index.html
+2015-06-23 16:51:43.051 Mobileapp[2984:9652644] Create table success
+2015-06-23 16:51:43.051 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.051 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.051 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.051 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.052 Mobileapp[2984:9652644] INSERT success
+2015-06-23 16:51:43.099 Mobileapp[2984:9652644] Transaction success
+2015-06-23 16:51:43.099 Mobileapp[2984:9652644] Service initialized
+2015-06-23 16:56:59.563 Mobileapp[3885:9662097] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/78882F09-4CBF-4D2E-ABAB-8893050DF856/Library/Cookies/Cookies.binarycookies
+2015-06-23 16:56:59.769 Mobileapp[3885:9662097] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 16:56:59.769 Mobileapp[3885:9662097] Multi-tasking -> Device: YES, App: YES
+2015-06-23 16:56:59.783 Mobileapp[3885:9662097] Unlimited access to network resources
+2015-06-23 16:56:59.791 Mobileapp[3885:9662097] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 16:57:00.038 Mobileapp[3885:9662097] [CDVTimer][statusbar] 152.449965ms
+2015-06-23 16:57:00.038 Mobileapp[3885:9662097] [CDVTimer][TotalPluginStartup] 152.603030ms
+2015-06-23 16:57:00.213 Mobileapp[3885:9662097] Resetting plugins due to page load.
+2015-06-23 16:57:00.357 Mobileapp[3885:9662097] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/F53CB0AA-9C43-44B3-A61E-E77409C54AE8/Mobileapp.app/www/index.html
+2015-06-23 16:57:00.395 Mobileapp[3885:9662097] Create table success
+2015-06-23 16:57:00.395 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.396 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.397 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.397 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.398 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.398 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.399 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.399 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.400 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.401 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.402 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.402 Mobileapp[3885:9662097] INSERT success
+2015-06-23 16:57:00.437 Mobileapp[3885:9662097] Transaction success
+2015-06-23 16:57:00.437 Mobileapp[3885:9662097] Service initialized
+2015-06-23 16:57:04.704 Mobileapp[3885:9662097] THREAD WARNING: ['Notification'] took '53.252930' ms. Plugin should use a background thread.
+2015-06-23 16:57:33.626 Mobileapp[3885:9662097] Resetting plugins due to page load.
+2015-06-23 16:57:33.643 Mobileapp[3885:9662097] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:57:34.230 Mobileapp[3885:9662097] Resetting plugins due to page load.
+2015-06-23 16:57:34.231 Mobileapp[3885:9662097] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 16:57:34.607 Mobileapp[3885:9662097] Resetting plugins due to page load.
+2015-06-23 16:57:34.608 Mobileapp[3885:9662097] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:00:35.391 Mobileapp[4213:9663986] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/160E7F15-005D-488A-9C3B-D68988A80300/Library/Cookies/Cookies.binarycookies
+2015-06-23 17:00:35.462 Mobileapp[4213:9663986] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 17:00:35.462 Mobileapp[4213:9663986] Multi-tasking -> Device: YES, App: YES
+2015-06-23 17:00:35.468 Mobileapp[4213:9663986] Unlimited access to network resources
+2015-06-23 17:00:35.470 Mobileapp[4213:9663986] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 17:00:35.555 Mobileapp[4213:9663986] [CDVTimer][statusbar] 13.992965ms
+2015-06-23 17:00:35.555 Mobileapp[4213:9663986] [CDVTimer][TotalPluginStartup] 14.136970ms
+2015-06-23 17:00:35.620 Mobileapp[4213:9663986] Resetting plugins due to page load.
+2015-06-23 17:00:35.692 Mobileapp[4213:9663986] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/FF9BFEFF-97CB-4137-AAE1-E7652606A94B/Mobileapp.app/www/index.html
+2015-06-23 17:00:38.303 Mobileapp[4213:9663986] Resetting plugins due to page load.
+2015-06-23 17:00:38.326 Mobileapp[4213:9663986] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:01:41.724 Mobileapp[4374:9664601] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/AD415B54-8A23-40C6-A006-09D2B1011286/Library/Cookies/Cookies.binarycookies
+2015-06-23 17:01:41.794 Mobileapp[4374:9664601] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 17:01:41.795 Mobileapp[4374:9664601] Multi-tasking -> Device: YES, App: YES
+2015-06-23 17:01:41.802 Mobileapp[4374:9664601] Unlimited access to network resources
+2015-06-23 17:01:41.804 Mobileapp[4374:9664601] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 17:01:41.888 Mobileapp[4374:9664601] [CDVTimer][statusbar] 13.343990ms
+2015-06-23 17:01:41.888 Mobileapp[4374:9664601] [CDVTimer][TotalPluginStartup] 13.513029ms
+2015-06-23 17:01:41.952 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:42.012 Mobileapp[4374:9664601] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/5B492B5A-4CE8-49ED-A626-CFE75605B79B/Mobileapp.app/www/index.html
+2015-06-23 17:01:42.039 Mobileapp[4374:9664601] Create table success
+2015-06-23 17:01:42.039 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.039 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.039 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.039 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.040 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.054 Mobileapp[4374:9664601] INSERT success
+2015-06-23 17:01:42.083 Mobileapp[4374:9664601] Transaction success
+2015-06-23 17:01:42.083 Mobileapp[4374:9664601] Service initialized
+2015-06-23 17:01:46.376 Mobileapp[4374:9664601] THREAD WARNING: ['Notification'] took '10.141846' ms. Plugin should use a background thread.
+2015-06-23 17:01:49.844 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:49.858 Mobileapp[4374:9664601] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:01:50.510 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:50.516 Mobileapp[4374:9664601] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:01:50.882 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:50.884 Mobileapp[4374:9664601] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:01:52.330 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:52.348 Mobileapp[4374:9664601] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:01:53.050 Mobileapp[4374:9664601] Resetting plugins due to page load.
+2015-06-23 17:01:53.052 Mobileapp[4374:9664601] Failed to load webpage with error: The requested URL was not found on this server.
+2015-06-23 17:02:47.616 Mobileapp[4535:9665222] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/FB858A52-1BEA-4465-A74C-112EF61E95CE/Library/Cookies/Cookies.binarycookies
+2015-06-23 17:02:47.687 Mobileapp[4535:9665222] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 17:02:47.687 Mobileapp[4535:9665222] Multi-tasking -> Device: YES, App: YES
+2015-06-23 17:02:47.689 Mobileapp[4535:9665222] Unlimited access to network resources
+2015-06-23 17:02:47.691 Mobileapp[4535:9665222] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 17:02:47.780 Mobileapp[4535:9665222] [CDVTimer][statusbar] 14.084041ms
+2015-06-23 17:02:47.780 Mobileapp[4535:9665222] [CDVTimer][TotalPluginStartup] 14.235973ms
+2015-06-23 17:02:47.843 Mobileapp[4535:9665222] Resetting plugins due to page load.
+2015-06-23 17:02:47.908 Mobileapp[4535:9665222] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/F2CBE7AC-C2A5-478D-814D-EC291DC45BF0/Mobileapp.app/www/index.html
+2015-06-23 17:02:47.932 Mobileapp[4535:9665222] Create table success
+2015-06-23 17:02:47.933 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.933 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.942 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.942 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.943 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.943 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.944 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.946 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.946 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.947 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.948 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.948 Mobileapp[4535:9665222] INSERT success
+2015-06-23 17:02:47.957 Mobileapp[4535:9665222] Transaction success
+2015-06-23 17:03:12.305 Mobileapp[4681:9665756] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/D6B4A31B-B7A1-416D-B5C6-9F67B46F2659/Library/Cookies/Cookies.binarycookies
+2015-06-23 17:03:12.376 Mobileapp[4681:9665756] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 17:03:12.377 Mobileapp[4681:9665756] Multi-tasking -> Device: YES, App: YES
+2015-06-23 17:03:12.387 Mobileapp[4681:9665756] Unlimited access to network resources
+2015-06-23 17:03:12.389 Mobileapp[4681:9665756] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 17:03:12.474 Mobileapp[4681:9665756] [CDVTimer][statusbar] 13.588965ms
+2015-06-23 17:03:12.474 Mobileapp[4681:9665756] [CDVTimer][TotalPluginStartup] 13.772011ms
+2015-06-23 17:03:12.536 Mobileapp[4681:9665756] Resetting plugins due to page load.
+2015-06-23 17:03:12.599 Mobileapp[4681:9665756] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/2280A38B-BE48-4AD6-B804-0ECBB996829B/Mobileapp.app/www/index.html
+2015-06-23 17:03:12.630 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.630 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.631 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.631 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.631 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.631 Mobileapp[4681:9665756] INSERT success
+2015-06-23 17:03:12.631 Mobileapp[4681:9665756] Transaction success
+2015-06-23 17:05:30.787 Mobileapp[4965:9668027] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/4E593D0C-83BA-466A-87E0-DADD9D5659BF/Library/Cookies/Cookies.binarycookies
+2015-06-23 17:05:30.888 Mobileapp[4965:9668027] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 17:05:30.889 Mobileapp[4965:9668027] Multi-tasking -> Device: YES, App: YES
+2015-06-23 17:05:30.899 Mobileapp[4965:9668027] Unlimited access to network resources
+2015-06-23 17:05:30.910 Mobileapp[4965:9668027] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 17:05:31.094 Mobileapp[4965:9668027] [CDVTimer][statusbar] 97.128987ms
+2015-06-23 17:05:31.094 Mobileapp[4965:9668027] [CDVTimer][TotalPluginStartup] 97.283006ms
+2015-06-23 17:05:31.229 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:31.374 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:31.411 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:31.412 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.414 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.414 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.414 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.415 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.415 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.415 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.415 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.416 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.417 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.417 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.418 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:31.504 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:31.504 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:38.231 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:38.250 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:38.262 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:38.263 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.263 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.264 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.264 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.265 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.265 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.266 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.266 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.267 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.267 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.267 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.268 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:38.309 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:38.309 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:43.455 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:43.473 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:43.484 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:43.484 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.484 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.484 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.485 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.486 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.486 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:43.532 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:43.532 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:46.136 Mobileapp[4965:9668027] THREAD WARNING: ['Notification'] took '22.022949' ms. Plugin should use a background thread.
+2015-06-23 17:05:49.600 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:49.601 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.601 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.601 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.601 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.601 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.602 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.602 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.603 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.603 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.604 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.604 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.605 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:49.649 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:49.649 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:50.400 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:50.420 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:50.431 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:50.431 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.431 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.431 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.432 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.432 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.433 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.433 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.434 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.434 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.435 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.435 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.436 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:50.479 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:50.479 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:51.271 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:51.291 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:51.302 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:51.302 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.302 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.303 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.303 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.304 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.304 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.305 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.305 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.305 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.306 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.306 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.307 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.350 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:51.350 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:51.935 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:51.981 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:51.998 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:51.998 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.999 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:51.999 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.000 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.000 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.001 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.001 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.002 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.002 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.003 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.003 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.003 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.046 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:52.046 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:52.168 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:52.203 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:52.213 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:52.213 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.213 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.214 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.214 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.215 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.215 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.216 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.216 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.217 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.217 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.218 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.218 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.262 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:52.262 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:52.402 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:52.423 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:52.437 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:52.438 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.438 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.439 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.439 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.440 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.440 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.441 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.441 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.442 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.442 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.443 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.443 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:52.481 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:52.481 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:54.370 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:54.390 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:54.401 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:54.401 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.401 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.402 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.402 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.403 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.403 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.404 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.404 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.405 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.405 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.405 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.406 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:54.449 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:54.449 Mobileapp[4965:9668027] Service initialized
+2015-06-23 17:05:55.037 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 17:05:55.057 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 17:05:55.067 Mobileapp[4965:9668027] Create table success
+2015-06-23 17:05:55.067 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.067 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.067 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.067 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.068 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.068 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.068 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.068 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.068 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.069 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.070 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.070 Mobileapp[4965:9668027] INSERT success
+2015-06-23 17:05:55.115 Mobileapp[4965:9668027] Transaction success
+2015-06-23 17:05:55.115 Mobileapp[4965:9668027] Service initialized
+2015-06-23 18:54:11.193 Mobileapp[4965:9691328] Communications error: <OS_xpc_error: <error: 0x31325f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x313283c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-06-23 21:50:30.105 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 21:50:30.986 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 21:50:31.195 Mobileapp[4965:9668027] THREAD WARNING: ['StatusBar'] took '62.135010' ms. Plugin should use a background thread.
+2015-06-23 21:50:31.256 Mobileapp[4965:9668027] THREAD WARNING: ['StatusBar'] took '53.320801' ms. Plugin should use a background thread.
+2015-06-23 21:50:31.257 Mobileapp[4965:9668027] Create table success
+2015-06-23 21:50:31.257 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.257 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.257 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.262 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.263 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.263 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.264 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.264 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.265 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.265 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.266 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.266 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:31.350 Mobileapp[4965:9668027] Transaction success
+2015-06-23 21:50:31.350 Mobileapp[4965:9668027] Service initialized
+2015-06-23 21:50:33.312 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 21:50:33.337 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 21:50:33.375 Mobileapp[4965:9668027] Create table success
+2015-06-23 21:50:33.376 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.376 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.377 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.377 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.378 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.378 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.379 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.379 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.380 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.381 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.381 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.381 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.404 Mobileapp[4965:9668027] Transaction success
+2015-06-23 21:50:33.404 Mobileapp[4965:9668027] Service initialized
+2015-06-23 21:50:33.947 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 21:50:33.969 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 21:50:33.982 Mobileapp[4965:9668027] Create table success
+2015-06-23 21:50:33.982 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.982 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.982 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.983 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.983 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.984 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.984 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.985 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.985 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.986 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.986 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:33.987 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:34.029 Mobileapp[4965:9668027] Transaction success
+2015-06-23 21:50:34.029 Mobileapp[4965:9668027] Service initialized
+2015-06-23 21:50:36.163 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 21:50:36.210 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] Create table success
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.226 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.227 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.227 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.228 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.228 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.229 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.229 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.230 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.274 Mobileapp[4965:9668027] Transaction success
+2015-06-23 21:50:36.274 Mobileapp[4965:9668027] Service initialized
+2015-06-23 21:50:36.765 Mobileapp[4965:9668027] Resetting plugins due to page load.
+2015-06-23 21:50:36.787 Mobileapp[4965:9668027] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/56F8A0A0-FEF8-4B75-A6F2-088B752DB073/Mobileapp.app/www/index.html
+2015-06-23 21:50:36.807 Mobileapp[4965:9668027] Create table success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.808 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.809 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.809 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.810 Mobileapp[4965:9668027] INSERT success
+2015-06-23 21:50:36.855 Mobileapp[4965:9668027] Transaction success
+2015-06-23 21:50:36.856 Mobileapp[4965:9668027] Service initialized
+2015-06-23 21:50:49.818 Mobileapp[4965:9668027] THREAD WARNING: ['Notification'] took '199.899902' ms. Plugin should use a background thread.
+2015-06-23 21:51:22.200 Mobileapp[12934:9750021] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/BCDB4AF7-C4B0-456D-B74F-221ABF8C7750/Library/Cookies/Cookies.binarycookies
+2015-06-23 21:51:22.837 Mobileapp[12934:9750021] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 21:51:22.837 Mobileapp[12934:9750021] Multi-tasking -> Device: YES, App: YES
+2015-06-23 21:51:22.898 Mobileapp[12934:9750021] Unlimited access to network resources
+2015-06-23 21:51:22.957 Mobileapp[12934:9750021] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 21:51:23.577 Mobileapp[12934:9750021] [CDVTimer][statusbar] 206.306994ms
+2015-06-23 21:51:23.577 Mobileapp[12934:9750021] [CDVTimer][TotalPluginStartup] 206.475973ms
+2015-06-23 21:51:23.882 Mobileapp[12934:9750021] Resetting plugins due to page load.
+2015-06-23 21:51:24.497 Mobileapp[12934:9750021] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/EB7DAD12-FC0B-49C4-88CE-F265CDB3F7AA/Mobileapp.app/www/index.html
+2015-06-23 21:51:32.220 Mobileapp[12934:9750021] User :
+2015-06-23 21:51:32.220 Mobileapp[12934:9750021] Jam
+2015-06-23 21:51:34.088 Mobileapp[12934:9750021] User :
+2015-06-23 21:51:34.088 Mobileapp[12934:9750021] Jam
+2015-06-23 21:51:38.279 Mobileapp[12934:9750021] User :
+2015-06-23 21:51:38.279 Mobileapp[12934:9750021] James
+2015-06-23 21:51:38.279 Mobileapp[12934:9750021] User Found
+2015-06-23 21:51:38.279 Mobileapp[12934:9750021] {"id":1,"firstName":"James","lastName":"King","managerId":0,"managerName":"","title":"President and CEO","department":"Corporate","cellPhone":"617-000-0001","officePhone":"781-000-0001","email":"jking@fakemail.com","city":"Boston, MA","pic":"James_King.jpg","twitterId":"@fakejking","blog":"http://coenraets.org"}
+2015-06-23 21:51:38.279 Mobileapp[12934:9750021] 1
+2015-06-23 21:51:38.280 Mobileapp[12934:9750021] {"id":1,"firstName":"James","lastName":"King","managerId":0,"managerName":"","title":"President and CEO","department":"Corporate","cellPhone":"617-000-0001","officePhone":"781-000-0001","email":"jking@fakemail.com","city":"Boston, MA","pic":"James_King.jpg","twitterId":"@fakejking","blog":"http://coenraets.org"}
+2015-06-23 21:51:40.359 Mobileapp[12934:9750021] Resetting plugins due to page load.
+2015-06-23 21:51:40.381 Mobileapp[12934:9750021] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/EB7DAD12-FC0B-49C4-88CE-F265CDB3F7AA/Mobileapp.app/www/index.html
+2015-06-23 21:52:34.707 Mobileapp[13099:9750668] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/D76B53A9-C573-4D3A-BF00-51A056C319C8/Library/Cookies/Cookies.binarycookies
+2015-06-23 21:52:34.843 Mobileapp[13099:9750668] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 21:52:34.843 Mobileapp[13099:9750668] Multi-tasking -> Device: YES, App: YES
+2015-06-23 21:52:34.854 Mobileapp[13099:9750668] Unlimited access to network resources
+2015-06-23 21:52:34.863 Mobileapp[13099:9750668] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 21:52:35.065 Mobileapp[13099:9750668] [CDVTimer][statusbar] 112.007976ms
+2015-06-23 21:52:35.065 Mobileapp[13099:9750668] [CDVTimer][TotalPluginStartup] 112.174988ms
+2015-06-23 21:52:35.205 Mobileapp[13099:9750668] Resetting plugins due to page load.
+2015-06-23 21:52:35.422 Mobileapp[13099:9750668] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/D7252AB4-BE98-4D18-B5CC-33DE1E99DD9F/Mobileapp.app/www/index.html
+2015-06-23 21:52:41.016 Mobileapp[13099:9750668] User :
+2015-06-23 21:52:41.016 Mobileapp[13099:9750668] James
+2015-06-23 21:52:41.016 Mobileapp[13099:9750668] User Found
+2015-06-23 21:52:41.016 Mobileapp[13099:9750668] {"id":1,"firstName":"James","lastName":"King","managerId":0,"managerName":"","title":"President and CEO","department":"Corporate","cellPhone":"617-000-0001","officePhone":"781-000-0001","email":"jking@fakemail.com","city":"Boston, MA","pic":"James_King.jpg","twitterId":"@fakejking","blog":"http://coenraets.org"}
+2015-06-23 21:52:41.017 Mobileapp[13099:9750668] 1
+2015-06-23 21:52:41.017 Mobileapp[13099:9750668] {"id":1,"firstName":"James","lastName":"King","managerId":0,"managerName":"","title":"President and CEO","department":"Corporate","cellPhone":"617-000-0001","officePhone":"781-000-0001","email":"jking@fakemail.com","city":"Boston, MA","pic":"James_King.jpg","twitterId":"@fakejking","blog":"http://coenraets.org"}
+2015-06-23 21:52:43.164 Mobileapp[13099:9750668] Resetting plugins due to page load.
+2015-06-23 21:52:43.185 Mobileapp[13099:9750668] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/D7252AB4-BE98-4D18-B5CC-33DE1E99DD9F/Mobileapp.app/www/index.html
+2015-06-23 21:52:59.213 Mobileapp[13099:9750668] User :
+2015-06-23 21:55:01.081 Mobileapp[13368:9752071] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Data/Application/9EBA6A5E-8473-415D-B92E-B639411533F3/Library/Cookies/Cookies.binarycookies
+2015-06-23 21:55:01.191 Mobileapp[13368:9752071] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-23 21:55:01.192 Mobileapp[13368:9752071] Multi-tasking -> Device: YES, App: YES
+2015-06-23 21:55:01.206 Mobileapp[13368:9752071] Unlimited access to network resources
+2015-06-23 21:55:01.220 Mobileapp[13368:9752071] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-23 21:55:01.380 Mobileapp[13368:9752071] [CDVTimer][statusbar] 76.201975ms
+2015-06-23 21:55:01.380 Mobileapp[13368:9752071] [CDVTimer][TotalPluginStartup] 76.371014ms
+2015-06-23 21:55:01.512 Mobileapp[13368:9752071] Resetting plugins due to page load.
+2015-06-23 21:55:01.763 Mobileapp[13368:9752071] Finished load of: file:///Volumes/Data/nfs/zfs-student-5/users/2013_paris/tseguier/Library/Developer/CoreSimulator/Devices/1A131297-CBAC-48C0-8F82-10CACFCAB9F4/data/Containers/Bundle/Application/1A2CCF81-3273-468B-9B01-115A6462C93D/Mobileapp.app/www/index.html
