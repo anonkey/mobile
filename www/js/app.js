@@ -53,9 +53,6 @@
 	//		alert("Employee Directory v3.4");
 	//});
 
-	/* ---------------------------------- Logal Functions ---------------------------------- */
-	function login() {
-		$('.content').html(invalLoginTpl());
-		$("<p> Invalid login.</p>").appendTo('body');
-	}
+	/* ---------------------------------- Local Functions ---------------------------------- */
+
 }());

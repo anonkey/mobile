@@ -8,28 +8,32 @@ var HomeView = function (service) {
 	this.initialize = function () {
 		// Define a div wrapper for the view (used to attach events)
 		this.$el = $('<div/>');
-		this.$el.on('submit', '#login-form', this.findByName );
+		this.$el.on('submit', '#login-form', this.findByLogin);
 
 
 		//register handler
 		this.$el.on('submit', '#register-form', function( event ) {
-			event.preventDefault();
 			var u = $("#user").val();
 			var p = $("#pass").val();
 			var p2 = $("#passconf").val();
 			console.log(u);
 			console.log(p);
 			console.log(p2);
-			if(u != '' && p != '' &&  u != 'undefined' &&  p != 'undefined' && p == p2)
-				navigator.notification.alert("Your registration failed");
-			else
+			if (u != '' && p != '' &&  u != 'undefined' &&  p != 'undefined' && u.length >= 5 &&  p == p2)
 			{
-				if (u == '' || p == '' || u == 'undefined' || p == 'undefined')
-				navigator.notification.alert("Empty login or password");
-				else
-				navigator.notification.alert("Passwords doesn't match");
+				var user = {"login" : u,"firstName": "First name", "lastName": "Lastname", "managerId": 4, "managerName": "John Williams", "title": "JOB", "department": "Departement", "cellPhone": "+33699999999", "officePhone": "+33699999999", "email": "monmail@mail.com", "city": "City", "pic": "Steven_Wells.jpg", "twitterId": "@twitter", "blog": "http://www.site.fr"} ;
+				console.log(service.addUser(user));
 			}
-			event.preventDefault();
+				else
+			{
+				event.preventDefault();
+				if (u == '' || p == '' || u == 'undefined' || p == 'undefined')
+					navigator.notification.alert("Empty login or password");
+				else if (u.length < 5)
+					navigator.notification.alert("Login too short");
+				else
+					navigator.notification.alert("Passwords doesn't match");
+			}
 		});
 		this.$el.on('click', '#privacy-link', function( event ) {
 			$('header').html(headerTpl());
@@ -56,11 +60,11 @@ var HomeView = function (service) {
 			$('.content', this.$el).html(loginView.$el);
 		return this;
 	};
-	this.findByName = function() {
+	this.findByLogin = function() {
 				event.preventDefault();
 			console.log("User :");
 			console.log($('#user').val());
-		service.findByName($('#user').val()).done(function(user) {
+		service.findByLogin($('#user').val()).done(function(user) {
 			if (user != null)
 			{
 			console.log("User Found");

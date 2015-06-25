@@ -1,4 +1,4 @@
-var LoggedView = function (employee) {
+var LoggedView = function (user) {
 
 	this.initialize = function () {
 		// Define a div wrapper for the view (used to attach events)
@@ -8,7 +8,7 @@ var LoggedView = function (employee) {
 	};
 
 	this.render = function() {
-		this.$el.html(this.template(employee));
+		this.$el.html(this.template(user));
 		return this;
 	};
 
