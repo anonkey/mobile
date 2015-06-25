@@ -13,10 +13,14 @@ footer.bar-tab{
 	padding-top: 1em;
 	text-align: center;
 }
-footer a{
+footer a, footer a:visited, footer a:hover, footer a:active{
 	border: 3px;
+	border-radius: 50% 50% 50% 50%;
 	border-style: outset;
-	border-radius: 1px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 /* Main Menu */
 .nav{

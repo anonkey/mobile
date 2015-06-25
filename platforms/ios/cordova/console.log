@@ -6914,3 +6914,6 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-06-25 22:15:00.609 Mobileapp[18491:150180] service.sessId: -1
 2015-06-25 22:15:00.609 Mobileapp[18491:150180] service.sessId: -1
 2015-06-25 22:15:00.609 Mobileapp[18491:150180] Service initialized
+2015-06-25 22:22:31.697 Mobileapp[18491:186778] Communications error: <OS_xpc_error: <error: 0x31405f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x314083c> { length = 22, contents = "Connection interrupted" }
+}>

@@ -24,11 +24,13 @@ var HomeView = function (service) {
 			if (u != '' && p != '' &&  u != 'undefined' &&  p != 'undefined' && u.length >= 5 &&  p == p2)
 			{
 				var user = {"login" : u, "firstName": "First name", "lastName": "Lastname", "managerId": 4, "managerName": "John Williams", "title": "JOB", "department": "Departement", "cellPhone": "+33699999999", "officePhone": "+33699999999", "email": "monmail@mail.com", "city": "City", "pic": "Steven_Wells.jpg", "twitterId": "@twitter", "blog": "http://www.site.fr"} ;
+				console.log("Adduser");
 				console.log(service.addUser(user));
 				$('.content', this.$el).html(loginView.$el);
 			}
 				else
 			{
+				console.log("Reg error");
 				if (u == '' || p == '' || u == 'undefined' || p == 'undefined')
 					navigator.notification.alert("Empty login or password");
 				else if (u.length < 5)
@@ -80,6 +82,7 @@ var HomeView = function (service) {
 			else
 			{
 				console.log("Login or password incorrect");
+				navigator.notification.alert("Login or password incorrect");
 				service.sessId = -1;
 			}
 		});
