@@ -79,9 +79,11 @@ var HomeView = function (service) {
 				console.log(service.sessId);
 				console.log(service.userInfos);
 				servService = new ServService(service);
-				faqService = new FaqService(service);
 				servService.initialize().done(function () {
+					faqService = new FaqService(service);
+					faqService.initialize().done(function () {
 					$('body').html(new LoggedView(service, servService, faqService).render().$el);
+					});
 				});
 			}
 			else

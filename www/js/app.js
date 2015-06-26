@@ -9,6 +9,7 @@
 	LoginView.prototype.template = Handlebars.compile($("#login-tpl").html());
 	LoggedView.prototype.template = Handlebars.compile($("#logged-tpl").html());
 	UserView.prototype.template = Handlebars.compile($("#user-tpl").html());
+	QuestionView.prototype.template = Handlebars.compile($("#question-tpl").html());
 	ServiceListView.prototype.template = Handlebars.compile($("#service-list-tpl").html());
 	FaqView.prototype.template = Handlebars.compile($("#faq-tpl").html());
 	var invalLoginTpl = Handlebars.compile($("#inval-login-tpl").html());

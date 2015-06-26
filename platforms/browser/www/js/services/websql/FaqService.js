@@ -8,11 +8,11 @@ var FaqService = function (service) {
 					addSampleData(tx);
 				},
 				function (error) {
-					console.log('Transaction error: ' + error);
+					console.log('FAQ Transaction error: ' + error);
 					deferred.reject('Transaction error: ' + error);
 				},
 				function () {
-					console.log('Transaction success');
+					console.log('FAQ Transaction success');
 					deferred.resolve();
 				}
 				);
@@ -28,7 +28,8 @@ var FaqService = function (service) {
 			"FROM faq q " +
 			"ORDER BY q.name";
 
-		console.log("SQL faq REQ: " + sql);
+		console.log("SQL faq REQ: ");
+		console.log(sql);
 		tx.executeSql(sql, [], function (tx, results) {
 			var len = results.rows.length,
 			questions = [],
@@ -41,7 +42,8 @@ var FaqService = function (service) {
 		});
 				},
 				function (error) {
-					console.log('Transaction error: ' + error);
+					console.log('Transaction error: ');
+					console.log(error);
 					deferred.reject("Transaction Error: " + error.message);
 				}
 		);
@@ -53,8 +55,8 @@ var FaqService = function (service) {
 		service.db.transaction(
 				function (tx) {
 
-					var sql = "SELECT e.id, e.name " +
-			"FROM serv e " +
+					var sql = "SELECT e.id, e.name, e.ans " +
+			"FROM faq e " +
 			"WHERE e.id=:id";
 
 		tx.executeSql(sql, [id], function (tx, results) {
@@ -69,27 +71,28 @@ var FaqService = function (service) {
 	};
 
 	var createTable = function (tx) {
-		tx.executeSql('DROP TABLE IF EXISTS serv');
-		var sql = "CREATE TABLE IF NOT EXISTS serv ( " +
+		tx.executeSql('DROP TABLE IF EXISTS faq');
+		var sql = "CREATE TABLE IF NOT EXISTS faq ( " +
 			"id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-			"name VARCHAR(300)), " + 
+			"name VARCHAR(300), " + 
 			"ans VARCHAR(2000))";
 		tx.executeSql(sql, null,
 				function () {
-					console.log('Create serv table success');
+					console.log('Create faq table success');
 				},
 				function (tx, error) {
-					console.log('Create serv table error' + error);
-					alert('Create serv table error: ' + error.message);
+					console.log('Create faq table error');
+					console.log(error);
+					alert('Create faq table error: ' + error.message);
 				});
 	}
 
 	var addData = function(tx, question){
-		var sql = "INSERT INTO serv " +
-			"(name) " +
-			"VALUES (?)";
+		var sql = "INSERT INTO faq " +
+			"(name, ans) " +
+			"VALUES (?, ?)";
 		var e = question;
-			tx.executeSql(sql, [e.name],
+			tx.executeSql(sql, [e.name, e.ans],
 					function () {
 						console.log('INSERT success');
 					},
@@ -112,7 +115,7 @@ var FaqService = function (service) {
 		{"name": "question 8", "ans": "Answer 8"},
 		];
 		var l = questions.length;
-		var sql = "INSERT OR REPLACE INTO serv " +
+		var sql = "INSERT OR REPLACE INTO faq " +
 			"(name) " +
 			"VALUES (?)";
 		var e;

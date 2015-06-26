@@ -1,6 +1,7 @@
 var LoggedView = function (service, servService, faqService) {
 
 	var userView;
+	var faqView;
 	var serviceListView;
 
 	this.initialize = function () {
@@ -31,6 +32,7 @@ var LoggedView = function (service, servService, faqService) {
 			console.log(list);
 			faqView.setQuestions(list);
 		});
+
 		this.render();
 	};
 
