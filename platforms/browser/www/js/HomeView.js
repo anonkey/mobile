@@ -1,4 +1,5 @@
 var HomeView = function (service) {
+	var lostPassView;
 	var loginView;
 	var loggedView;
 	var privacyView;
@@ -12,7 +13,14 @@ var HomeView = function (service) {
 		this.$el.on('submit', '#login-form', this.userLogin);
 
 
-		//register handler
+		//lostpass handler
+			this.$el.on('submit', '#lostpass-form', function( event ) {
+			event.preventDefault();
+			var u = $("#user").val();
+			console.log(u);
+			navigator.notification.alert("We send you your password back.");
+$('.content', this.$el).html(loginView.$el);
+		});
 		this.$el.on('submit', '#register-form', function( event ) {
 			event.preventDefault();
 			var u = $("#user").val();
@@ -54,7 +62,13 @@ var HomeView = function (service) {
 			$('.content', this.$el).html(registerView.$el);
 			event.preventDefault();
 		});
+		this.$el.on('click', '#lostpass-link', function( event ) {
+			$('header').html(headerTpl());
+			$('.content', this.$el).html(lostPassView.$el);
+			event.preventDefault();
+		});
 		loginView = new LoginView();
+		lostPassView = new LostPassView();
 		privacyView = new PrivacyView();
 		registerView = new RegisterView();
 		this.render();

@@ -6,6 +6,7 @@
 	var headerTpl = Handlebars.compile($("#header-tpl").html());
 	HomeView.prototype.template = Handlebars.compile($("#home-tpl").html());
 	RegisterView.prototype.template = Handlebars.compile($("#register-tpl").html());
+	LostPassView.prototype.template = Handlebars.compile($("#lostpass-tpl").html());
 	LoginView.prototype.template = Handlebars.compile($("#login-tpl").html());
 	LoggedView.prototype.template = Handlebars.compile($("#logged-tpl").html());
 	UserView.prototype.template = Handlebars.compile($("#user-tpl").html());

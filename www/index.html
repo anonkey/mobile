@@ -12,7 +12,7 @@
 	<body>
 		<script id="header-tpl" type="text/template">
 			<a id="hist-back" class="btn btn-link btn-nav pull-left" href="">
-				<span class="icon icon-left-nav"></span>
+				<span id="hist-back" class="icon icon-left-nav"></span>
 			</a>
 			<h1 class="title">Registration</h1>
 		</script>
@@ -32,7 +32,7 @@
 					<input id='login-submit' type="submit" name="login" class="login login-submit" value="Login">
 				</form>
 				<div class="login-help">
-					<a id="register-link">Register</a> • <a href="#">Forgot Password</a>
+					<a id="register-link">Register</a> • <a id="lostpass-link">Forgot Password</a>
 				</div>
 			</div>
 		</script>
@@ -42,6 +42,15 @@
 				<p>
 				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
 				</p>
+			</div>
+		</script>
+		<script id="lostpass-tpl" type="text/template">
+			<div class="login-card">
+				<h1>Lost password</h1><br>
+				<form id='lostpass-form' method='POST'>
+					<input id="user" type="text" name="user" placeholder="Username">
+					<input id="lostpass-submit" type="submit" name="lostpass-submit" class="login login-submit" value="Register">
+				</form>
 			</div>
 		</script>
 		<script id="register-tpl" type="text/template">
@@ -199,6 +208,7 @@
 		<script src="lib/handlebars.js"></script>
 		<!-- Js events -->
 		<script src="js/LoginView.js"></script>
+		<script src="js/LostPassView.js"></script>
 		<script src="js/LoggedView.js"></script>
 		<script src="js/FaqView.js"></script>
 		<script src="js/ServiceListView.js"></script>

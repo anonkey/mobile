@@ -6,7 +6,13 @@
 	var headerTpl = Handlebars.compile($("#header-tpl").html());
 	HomeView.prototype.template = Handlebars.compile($("#home-tpl").html());
 	RegisterView.prototype.template = Handlebars.compile($("#register-tpl").html());
+	LostPassView.prototype.template = Handlebars.compile($("#lostpass-tpl").html());
 	LoginView.prototype.template = Handlebars.compile($("#login-tpl").html());
+	LoggedView.prototype.template = Handlebars.compile($("#logged-tpl").html());
+	UserView.prototype.template = Handlebars.compile($("#user-tpl").html());
+	QuestionView.prototype.template = Handlebars.compile($("#question-tpl").html());
+	ServiceListView.prototype.template = Handlebars.compile($("#service-list-tpl").html());
+	FaqView.prototype.template = Handlebars.compile($("#faq-tpl").html());
 	var invalLoginTpl = Handlebars.compile($("#inval-login-tpl").html());
 	PrivacyView.prototype.template = Handlebars.compile($("#privacy-tpl").html());
 	var employeeListTpl = Handlebars.compile($("#employee-list-tpl").html());
