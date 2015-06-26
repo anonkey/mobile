@@ -22,6 +22,11 @@ var LoggedView = function (service, servService, faqService) {
 			console.log(" Service link click ");
 			$('.content', this.$el).html(serviceListView.$el);
 		});
+		this.$el.on('click', '#hist-back', function( event ) {
+			event.preventDefault();
+			this.$el.html(this.template());
+			$('.content', this.$el).html(userView.$el);
+		});
 		servService.loadServices().done(function (list) {
 			console.log("serv loadservices done");
 			console.log(list);
