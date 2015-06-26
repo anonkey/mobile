@@ -24,7 +24,7 @@
 		</script>
 		<script id="login-tpl" type="text/template">
 			<div class="login-card">
-				<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="Company Logo - Mobifreaks.com" /></a></div>
+				<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="Company Logo" /></a></div>
 				<h1>Welcome to Mobile App</h1><br>
 				<form id='login-form' method='POST'>
 					<input id="user" type="text" name="user" placeholder="Username">
@@ -76,7 +76,7 @@
 				{{/each}}
 			</ul>
 		</script>
-		<script id="user-tpl" type="text/template">
+		<script id="logged-tpl" type="text/template">
 			<header class="bar bar-nav">
 			<a class="btn btn-link btn-nav pull-left" href="">
 				<span class="icon icon-left-nav"> Logout</span>
@@ -84,59 +84,87 @@
 			<h1 class="title">Home</h1>
 			</header>
 			<div class="content">
-				<div class="card">
-					<ul class="table-view">
-						<li class="table-view-cell media">
-						<img class="media-object pull-left emp-pic" src="assets/pics/{{pic}}">
-						<div class="media-body">
-							{{ firstName }} {{ lastName }}
-							<p>{{ title }}</p>
-						</div>
-						</li>
-						<li class="table-view-cell media">
-						<a href="tel:{{ officePhone }}" class="push-right">
-							<span class="media-object pull-left icon icon-call"></span>
-							<div class="media-body">
-								Call Office
-								<p>{{ officePhone }}</p>
-							</div>
-						</a>
-						</li>
-						<li class="table-view-cell media">
-						<a href="tel:{{ cellPhone }}" class="push-right">
-							<span class="media-object pull-left icon icon-call"></span>
-							<div class="media-body">
-								Call Cell
-								<p>{{ cellPhone }}</p>
-							</div>
-						</a>
-						</li>
-						<li class="table-view-cell media">
-						<a href="sms:{{ cellPhone }}" class="push-right">
-							<span class="media-object pull-left icon icon-sms"></span>
-							<div class="media-body">
-								SMS
-								<p>{{ cellPhone }}</p>
-							</div>
-						</a>
-						</li>
-						<li class="table-view-cell media">
-						<a href="mailto:{{ email }}" class="push-right">
-							<span class="media-object pull-left icon icon-mail"></span>
-							<div class="media-body">
-								Email
-								<p>{{ email }}</p>
-							</div>
-						</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 			<footer class="bar bar-tab bar-footer">
-			<a href="index.html">Home</a>
-			<a href="services.html">Services</a>
-			<a href="about.html">FAQ</a>
+			<a id="home-link">Home</a>
+			<a id="service-link">Services</a>
+			<a id="faq-link">FAQ</a>
 			</footer>
+		</script>
+		<script id="user-tpl" type="text/template">
+			<div class="card">
+				<ul class="table-view">
+					<li class="table-view-cell media">
+					<img class="media-object pull-left emp-pic" src="assets/pics/{{pic}}">
+					<div class="media-body">
+						{{ firstName }} {{ lastName }}
+						<p>{{ title }}</p>
+					</div>
+					</li>
+					<li class="table-view-cell media">
+					<a href="tel:{{ officePhone }}" class="push-right">
+						<span class="media-object pull-left icon icon-call"></span>
+						<div class="media-body">
+							Call Office
+							<p>{{ officePhone }}</p>
+						</div>
+					</a>
+					</li>
+					<li class="table-view-cell media">
+					<a href="tel:{{ cellPhone }}" class="push-right">
+						<span class="media-object pull-left icon icon-call"></span>
+						<div class="media-body">
+							Call Cell
+							<p>{{ cellPhone }}</p>
+						</div>
+					</a>
+					</li>
+					<li class="table-view-cell media">
+					<a href="sms:{{ cellPhone }}" class="push-right">
+						<span class="media-object pull-left icon icon-sms"></span>
+						<div class="media-body">
+							SMS
+							<p>{{ cellPhone }}</p>
+						</div>
+					</a>
+					</li>
+					<li class="table-view-cell media">
+					<a href="mailto:{{ email }}" class="push-right">
+						<span class="media-object pull-left icon icon-mail"></span>
+						<div class="media-body">
+							Email
+							<p>{{ email }}</p>
+						</div>
+					</a>
+					</li>
+				</ul>
+			</div>
+		</script>
+		<script id="service-list-tpl" type="text/template">
+				<ul class="table-view">
+					{{#each this}}
+					<li class="table-view-cell media">
+					<a href="#faq/{{ id }}">
+						<div class="media-body">
+							{{name}}
+						</div>
+					</a>
+					</li>
+					{{/each}}
+				</ul>
+		</script>
+		<script id="faq-tpl" type="text/template">
+				<ul class="table-view">
+					{{#each this}}
+					<li class="table-view-cell media">
+					<a href="#service/{{ id }}">
+						<div class="media-body">
+							{{name}}
+						</div>
+					</a>
+					</li>
+					{{/each}}
+				</ul>
 		</script>
 		<!-- Native Adapations -->
 		<script src="cordova.js"></script>
@@ -146,12 +174,17 @@
 		<script src="js/UserView.js"></script>
 		<!-- Database connexion -->
 		<script src="js/services/websql/UserService.js"></script>
+		<script src="js/services/websql/FaqService.js"></script>
+		<script src="js/services/websql/ServService.js"></script>
 		<!-- No click delay on ios -->
 		<script src="lib/fastclick.js"></script>
 		<!-- Template lib -->
 		<script src="lib/handlebars.js"></script>
 		<!-- Js events -->
 		<script src="js/LoginView.js"></script>
+		<script src="js/LoggedView.js"></script>
+		<script src="js/FaqView.js"></script>
+		<script src="js/ServiceListView.js"></script>
 		<script src="js/PrivacyView.js"></script>
 		<script src="js/RegisterView.js"></script>
 		<script src="js/HomeView.js"></script>

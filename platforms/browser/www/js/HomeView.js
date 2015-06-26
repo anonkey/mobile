@@ -1,10 +1,11 @@
 var HomeView = function (service) {
 	var loginView;
-	var userView;
+	var loggedView;
 	var privacyView;
 	var registerView;
+	var servService;
+	var faqService;
 	var headerTpl = Handlebars.compile($("#header-tpl").html());
-	var userTpl = Handlebars.compile($("#user-tpl").html());
 	this.initialize = function () {
 		// Define a div wrapper for the view (used to attach events)
 		this.$el = $('<div/>');
@@ -25,8 +26,12 @@ var HomeView = function (service) {
 			{
 				var user = {"login" : u, "firstName": "First name", "lastName": "Lastname", "managerId": 4, "managerName": "John Williams", "title": "JOB", "department": "Departement", "cellPhone": "+33699999999", "officePhone": "+33699999999", "email": "monmail@mail.com", "city": "City", "pic": "Steven_Wells.jpg", "twitterId": "@twitter", "blog": "http://www.site.fr"} ;
 				console.log("Adduser");
-				console.log(service.addUser(user));
-				$('.content', this.$el).html(loginView.$el);
+				console.log(
+					service.addUser(user).done(function ()
+						{
+							$('.content', this.$el).html(loginView.$el);
+						})
+					);
 			}
 				else
 			{
@@ -49,7 +54,6 @@ var HomeView = function (service) {
 			$('.content', this.$el).html(registerView.$el);
 			event.preventDefault();
 		});
-		userView = new UserView(service.userInfos);
 		loginView = new LoginView();
 		privacyView = new PrivacyView();
 		registerView = new RegisterView();
@@ -58,10 +62,7 @@ var HomeView = function (service) {
 	this.render = function() {
 		this.$el.html(this.template());
 		console.log("service.sessId: " + service.sessId);
-		if (service.sessId != -1)
-			$('.content', this.$el).html(userView.$el);
-		else
-			$('.content', this.$el).html(loginView.$el);
+		$('.content', this.$el).html(loginView.$el);
 		return this;
 	};
 	this.userLogin = function() {
@@ -71,13 +72,17 @@ var HomeView = function (service) {
 			service.findByLogin($('#user').val()).done(function(user) {
 			if (user != null)
 			{
-			console.log("User Found");
-			console.log(user);
-			service.userInfos = user;
-			service.sessId = service.userInfos.id
-			console.log(service.sessId);
-			console.log(service.userInfos);
-			$('body').html(userTpl(service.userInfos));
+				console.log("User Found");
+				console.log(user);
+				service.userInfos = user;
+				service.sessId = service.userInfos.id
+				console.log(service.sessId);
+				console.log(service.userInfos);
+				servService = new ServService(service);
+				faqService = new FaqService(service);
+				servService.initialize().done(function () {
+					$('body').html(new LoggedView(service, servService, faqService).render().$el);
+				});
 			}
 			else
 			{

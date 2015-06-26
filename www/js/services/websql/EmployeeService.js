@@ -70,6 +70,7 @@ var EmployeeService = function () {
     };
 
     var createTable = function (tx) {
+                console.log('Create service table :');
         tx.executeSql('DROP TABLE IF EXISTS employee');
         var sql = "CREATE TABLE IF NOT EXISTS employee ( " +
             "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
